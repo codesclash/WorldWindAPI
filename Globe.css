@@ -1,0 +1,33 @@
+.globe_body{
+    display: flex;
+    background-color: black;
+}
+
+.globe_list{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 0.35;
+}
+
+.things{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    padding-top: 20px;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+
+}
+
+.things:hover{
+    background-color: aliceblue;
+    border-radius: 20px;
+    color:black;
+}
+
+.globe_canvas{
+    display: flex;
+    margin: auto
+}

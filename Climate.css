@@ -1,0 +1,32 @@
+.climate_body{
+    display: flex;
+    background-color: black;
+}
+
+.climate_list{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 0.35;
+}
+
+.things{
+    text-decoration: none;
+    padding: 0 10px;
+    padding-top: 20px;
+    cursor: pointer;
+    color: white;
+    display:flex;
+    justify-content: center;
+}
+
+.things:hover{
+    background-color: aliceblue;
+    border-radius: 20px;
+    color: black;
+}
+
+.climate_canvas{
+    display: flex;
+    margin: auto
+}

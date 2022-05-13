@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Globe</title>
+    <link rel="stylesheet" href="Home.css" />
+    <link rel="stylesheet" href="Globe.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <img class="brand" src="logo.jpg" alt="earth" />
+      <a href="./Home.html">Home</a>
+      <a href="./Globe.html">Globe</a>
+      <a href="./Climate.html">Features</a>
+    </div>
+    <div class="globe_body">
+        <ul class="globe_list">
+            <li class="things" id="all">Add All Layer</li>
+            <li class="things" id="base">Add Base Layer</li>
+            <li class="things" id="aerial">Add Aerial Layer</li>
+            <li class="things" id="label">Add Aerial With Labels Layer</li>
+            <li class="things" id="road">Add Roads Layer</li>
+            <li class="things" id="atmosphere">Add atmosphere</li>   
+        </ul>
+        <div class="globe_canvas">
+            <canvas id="canvasOne" style="width: 600px; height:680px; background-color: black">
+                Your browser does not support HTML5 Canvas.
+            </canvas>
+        </div>
+    </div>  
+    <script src="https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js" type="text/javascript"></script>
+    <script src="Globe.js" type="text/javascript"></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav{
+    display:flex;
+    align-items: center;
+    background-color: rgba(37, 37, 37, 0.8);
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+}
+.nav img{
+    padding: 0 8px;
+}
+.brand{
+ display:flex;
+ object-fit: contain;
+ width: 40px;
+ height: 30px;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .info{
+      display: flex;
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: white;
+    
+  }
+  .info h1,h2{
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    
+    font-size:50px;
+    margin-top: 40px;
+  }
+  .info p{
+      margin-top:20px;
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-bottom: 20px;
+      font-size:20px;
+  }
+
+  #btn{
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: rgb(68, 88, 222);
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
+  #btn:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+    
+  }
+  .info p{
+    font-family: 'Varela Round', sans-serif;
+  }

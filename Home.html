@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Wind</title>
+    <link rel="stylesheet" href="Home.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <a href="./Home.html">
+        <img class="brand" src="logo.jpg" alt="earth" />
+      </a>
+      <a href="./Home.html">Home</a>
+      <a href="./Globe.html">Globe</a>
+      <a href="./Climate.html">Features</a>
+    </div>
+    <div class="home"></div>
+
+    <video autoplay muted loop id="background-video">
+      <source src="background.mp4" type="video/mp4" />
+    </video>
+
+    <div class="info">
+      <h1>About The Project</h1>
+      <p>
+        NASA’s open data sources hold an abundance of imagery. Mapping that
+        imagery to a digital globe makes the data interactive and may enable
+        people to discover relationships among ecosystem phenomena. Using a
+        digital globe, such as NASA’s Web World Wind we can develop and deploy
+        an interactive web app that enables exploration. A web-app that presents
+        single view of the Earth could present one or more layers of imagery
+      </p>
+
+      <h1>What is World Wind</h1>
+      <p>
+        WorldWind is an open source virtual globe API. WorldWind allows
+        developers to quickly and easily create interactive visualizations of 3D
+        globe, map and geographical information. Organizations around the world
+        use WorldWind to monitor weather patterns, visualize cities and terrain,
+        track vehicle movement, analyze geospatial data and educate humanity
+        about the Earth.
+      </p>
+      <a href="Globe.html" target="_blank"
+        ><button id="btn" type="button">Explore Virtual Globe</button></a
+      >
+    </div>
+  </body>
+</html>
